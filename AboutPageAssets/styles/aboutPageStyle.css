@@ -4,7 +4,7 @@
 body {
 	margin-left: auto;
 	margin-right: auto;
-	width: 92%;
+	width: 97%;
 	max-width: 960px;
 	padding-left: 2.275%;
 	padding-right: 2.275%;
@@ -13,6 +13,46 @@ body {
 header {
 	text-align: center;
 	display: block;
+}
+div#banner{
+	width:100%;
+	height:auto;
+}
+div#img_banner{
+	display:block;
+	margin: auto;
+	width: 100%;
+}
+.caja{
+	position:relative;
+}
+.texto{
+	position: absolute;
+	top: 61%;
+	left: 21%;
+	font-family: sans-serif;
+	color: rgba(146,146,146,1.00);
+	font-size: 20px;
+}
+.social-net{
+	position: absolute;
+	top: 53%;
+	right: -4%;
+}
+.share{
+	position: absolute;
+	top: 0.5%;
+	left: 0.5%;
+}
+.curriculum{
+	position: absolute;
+	top: 50%;
+	right: 9%;
+}
+.correo{
+	position: absolute;
+	top: 0%;
+	left: 58%;
 }
 header .profileLogo .logoPlaceholder {
 	background-color: rgba(208,207,207,1.00);
@@ -29,7 +69,7 @@ header .logoPlaceholder span {
 	line-height: 53px;
 }
 header .profilePhoto {
-	background-color: rgba(237,237,237,1.00);
+	background-color: rgba(255,255,255,1.00);
 	width: 259px;
 	border-radius: 50%;
 	height: 259px;
@@ -347,7 +387,7 @@ header .profilePhoto {
 }
 header .profileHeader {
 	text-align: left;
-	padding-top: 10%;
+	padding-top: 1%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	width: 74px;
